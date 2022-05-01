@@ -53,7 +53,7 @@ mostrarFoto.addEventListener("click", (event) => {
     .then(data => data.json())
     .then(data => {
         if (userText.value === data.name || userText.value == data.id) {
-            pantalla.innerHTML = `<img src="${data.sprites.other.dream_world.front_default}" style="width: 120px"> <h3> Id: ${data.id}</h3> <h3>Type: ${data.types[0].type.name}</h3>`;
+            pantalla.innerHTML = `<img src="${data.sprites.other.dream_world.front_default}" > <h3> Id: ${data.id}</h3> <h3>Type: ${data.types[0].type.name}</h3>`;
             shinyOn = false;
         }
     })

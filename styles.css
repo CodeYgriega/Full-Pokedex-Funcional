@@ -258,7 +258,126 @@ body {
 
 
 
-
+@media screen and (max-width: 414px){
+    .pokedex {
+        width: 220px;
+        height: 400px;
+        margin-top: 100px;
+    }
+    .pokedex-team {
+        width: 150px;
+        height: 280px;
+        margin-top: 100px;
+    }
+    .marco-pantalla {
+        width: 170px;
+        height: 170px;
+    }
+    .pantalla {
+        width: 130px;
+        height: 130px;
+        gap: 0px;
+    }
+    .pokedex-luces {
+        height: 70px;
+        margin-top: 5px;
+    }
+    .esfera-azul {
+        width: 45px;
+        height: 45px;
+        border: 3px solid;
+    }
+    .semaforo {
+        width: 150px;
+        height: 50px;
+    }
+    .semaforo span {
+        width: 15px;
+        height: 15px;
+        border: 2px solid;
+    }
+    .pantalla h1 {
+        font-size: 12px;
+        margin: 0 0;
+    }
+    .pantalla p {
+        font-size: 9px;
+        letter-spacing: 0px;
+    }
+    .pantalla h3 {
+        font-size: 12px;
+    }
+    .pantalla img {
+        width: 70px;
+    }
+    .foto-shiny-fav {
+        margin-left: 25px;
+        gap: 5px;
+        width: 180px;
+    }
+    .fav {
+        width: 25px;
+    }
+    #container-pokeballs {
+        width: 200px;
+    }
+    #mostrarFoto {
+        font-size: 9px;
+        height: 30px;
+        width: 100px;
+    }
+    #mostrarFoto:hover {
+        font-size: 9px;
+        height: 30px;
+        width: 100px;
+    }
+    #mostrarShiny {
+        font-size: 9px;
+        width: 100px;
+        height: 30px;
+    }
+    #mostrarShiny:hover {
+        font-size: 9px;
+        height: 30px;
+        width: 100px;
+    }
+    .buscador {
+        padding-top: 10px;
+    }
+    #userText {
+        font-size: 10px;
+        width: 120px;
+        height: 30px;
+    }
+    #userText::placeholder {
+        font-size: 10px;
+    }
+    #lupa {
+        width: 35px;
+    }
+    #lupa:hover {
+        width: 35px;
+    }
+    .space-team {
+        width: 52px;
+        height: 52px;
+        border: 3px solid;
+        margin: 5px
+    }
+    .space-team img {
+        width: 30px;
+    }
+    .container-team p {
+        width: 10px;
+        height: 13px;
+        font-size: 9px;
+        margin-top: 6px;
+        text-align: center;
+    }
+    .pokedex-team h3 {
+        font-size: 20px;
+    }
+}
 
 
 
