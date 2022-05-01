@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Pokédex</title>
+</head>
+<body>
+    <main class="container">
+        <div class="pokedex">
+            <div class="pokedex-luces">
+                <div class="esfera-azul"></div>
+                <div class="semaforo">
+                    <span class="uno"></span>
+                    <span class="dos"></span>
+                    <span class="tres"></span>
+                </div>
+            </div>
+            <div class="container-pantalla">
+                <div class="marco-pantalla">
+                    <div class="pantalla" id="pantalla">
+                        <h1>¡Bienvenido a tu Pokédex!</h1>
+                        <p>Puedes buscar un Pokémon específico por su nombre o por su ID con números.</p>
+                        <p>También puedes crear tu equipo, incluso con los shinys ;)</p>
+                    </div>
+                </div>
+            </div>
+            <div class="container-botones">
+                <div class="foto-shiny-fav">
+                    <button type="submit" id="mostrarFoto"><strong>Mostrar foto</strong></button>
+                    <button type="submit" id="mostrarShiny"><strong>Mostrar Shiny</strong></button>
+                    <div id="container-pokeballs">
+                        <img src="pokeball.jpg" alt="" class="fav" id="pokeball1">
+                        <img src="pokeball.jpg" alt="" class="fav" id="pokeball2">
+                        <img src="pokeball.jpg" alt="" class="fav" id="pokeball3">
+                        <img src="pokeball.jpg" alt="" class="fav" id="pokeball4">
+                        <img src="pokeball.jpg" alt="" class="fav" id="pokeball5">
+                        <img src="pokeball.jpg" alt="" class="fav" id="pokeball6">
+                    </div>
+                </div>
+                <div class="buscador">
+                    <input type="text" id="userText" placeholder="Escribe tu Pokémon...">
+                    <img src="lupa.png" alt="" id="lupa">
+                </div>
+            </div>
+        </div>
+        <div class="pokedex-team">
+            <h3>Equipo de </h3>
+            <div class="container-team">
+                <div class="space-team" id="space1"></div>
+                <p id="x-1"><b>X</b></p>
+                <div class="space-team" id="space2"></div>
+                <p id="x-2"><b>X</b></p>
+                <div class="space-team" id="space3"></div>
+                <p id="x-3"><b>X</b></p>
+                <div class="space-team" id="space4"></div>
+                <p id="x-4"><b>X</b></p>
+                <div class="space-team" id="space5"></div>
+                <p id="x-5"><b>X</b></p>
+                <div class="space-team" id="space6"></div>
+                <p id="x-6"><b>X</b></p>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
