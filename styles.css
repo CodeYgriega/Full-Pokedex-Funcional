@@ -259,23 +259,28 @@ body {
 
 
 @media screen and (max-width: 414px){
+    .container {
+        flex-wrap: wrap;
+    }
     .pokedex {
-        width: 220px;
+        width: 60%;
         height: 400px;
-        margin-top: 100px;
+        border-bottom: 3px solid;
+        margin-top: 5px;
     }
     .pokedex-team {
-        width: 150px;
-        height: 280px;
-        margin-top: 100px;
+        width: 90%;
+        height: 200px;
+        margin-top: 0px;
+        margin-bottom: 5px;
     }
     .marco-pantalla {
-        width: 170px;
-        height: 170px;
+        width: 80%;
+        height: 180px;
     }
     .pantalla {
-        width: 130px;
-        height: 130px;
+        width: 80%;
+        height: 140px;
         gap: 0px;
     }
     .pokedex-luces {
@@ -297,80 +302,89 @@ body {
         border: 2px solid;
     }
     .pantalla h1 {
-        font-size: 12px;
+        font-size: 14px;
         margin: 0 0;
     }
     .pantalla p {
-        font-size: 9px;
+        font-size: 10px;
         letter-spacing: 0px;
     }
     .pantalla h3 {
         font-size: 12px;
     }
     .pantalla img {
-        width: 70px;
+        width: 70%;
+        height: 70%;
     }
     .foto-shiny-fav {
         margin-left: 25px;
         gap: 5px;
-        width: 180px;
+        width: 85%;
+        flex-wrap: wrap;
     }
     .fav {
-        width: 25px;
+        width: 33%;
     }
     #container-pokeballs {
-        width: 200px;
+        width: 40%;
+
     }
     #mostrarFoto {
         font-size: 9px;
+        width: 24%;
         height: 30px;
-        width: 100px;
+        
     }
     #mostrarFoto:hover {
         font-size: 9px;
+        width: 24%;
         height: 30px;
-        width: 100px;
     }
     #mostrarShiny {
         font-size: 9px;
-        width: 100px;
+        width: 24%;
         height: 30px;
     }
     #mostrarShiny:hover {
         font-size: 9px;
+        width: 24%;
         height: 30px;
-        width: 100px;
     }
     .buscador {
         padding-top: 10px;
+        width: 100%;
+        justify-content: space-around;
+        flex-wrap: wrap;
     }
     #userText {
         font-size: 10px;
-        width: 120px;
+        width: 70%;
         height: 30px;
     }
     #userText::placeholder {
         font-size: 10px;
     }
     #lupa {
-        width: 35px;
+        width: 20%;
     }
     #lupa:hover {
-        width: 35px;
+        width: 22%;
     }
     .space-team {
-        width: 52px;
-        height: 52px;
+        width: 25%;
+        height: 80px;
         border: 3px solid;
-        margin: 5px
+        margin: 5px;
+        margin-top: 10px;
     }
     .space-team img {
-        width: 30px;
+        width: 80%;
+        height: 85%;
     }
     .container-team p {
         width: 10px;
         height: 13px;
-        font-size: 9px;
+        font-size: 10px;
         margin-top: 6px;
         text-align: center;
     }
